@@ -1,0 +1,14 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "jupyterlab-pytutor",
+  "description": "jupyterlab-pytutor settings.",
+  "type": "object",
+  "properties": {
+      "add_cell_separators" : {
+        "type": "boolean",
+        "default": true,
+        "description" : "Use seperators (`#####`) to separate the individual cells in the PyTutor view"
+      }
+  },
+  "additionalProperties": false
+}
