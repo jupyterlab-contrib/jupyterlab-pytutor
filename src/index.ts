@@ -86,7 +86,7 @@ export class PyTutorExtension
   createNew(
     panel: NotebookPanel,
     context: DocumentRegistry.IContext<INotebookModel>
-  ): IDisposable {
+  ): IDisposable | undefined {
     const runPytutor = () => {
       const add_cell_separators = this.settings.get('add_cell_separators')
         .composite as boolean;
@@ -128,17 +128,21 @@ export class PyTutorExtension
       }
     };
 
-    const button = new ToolbarButton({
-      className: 'pytutor-button',
-      label: 'pytutor',
-      onClick: runPytutor,
-      tooltip: 'Run PyTutor'
-    });
+    console.log('panel.content.defaultKernelLanguage');
+    //if(model && model.defaultKernelLanguage == 'python') # this does not work :/
+    {
+      const button = new ToolbarButton({
+        className: 'pytutor-button',
+        label: 'pytutor',
+        onClick: runPytutor,
+        tooltip: 'Run PyTutor'
+      });
 
-    panel.toolbar.insertItem(10, 'PyTutor', button);
-    return new DisposableDelegate(() => {
-      button.dispose();
-    });
+      panel.toolbar.insertItem(10, 'PyTutor', button);
+      return new DisposableDelegate(() => {
+        button.dispose();
+      });
+    }
   }
 
   settings: ISettingRegistry.ISettings;
