@@ -186,7 +186,7 @@ class PyTutorIFrame extends IFrame {
     super();
 
     console.log('SRC: ', src);
-    this.url = `http://pythontutor.com/iframe-embed.html#code=${encodeURIComponent(
+    this.url = `https://pythontutor.com/iframe-embed.html#code=${encodeURIComponent(
       src
     )}&codeDivHeight=900&codeDivWidth=350&cumulative=true&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false`;
     console.log('Full URL: ', this.url);
