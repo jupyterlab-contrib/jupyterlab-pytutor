@@ -4,7 +4,7 @@
 
 A JupyterLab extension for pythontutor.com
 
-
+![screenshot of jupyterlab-pytutor](https://user-images.githubusercontent.com/591645/212368538-9023c2e9-1e95-4395-81eb-641b1801c782.png)
 
 ## Requirements
 
