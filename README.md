@@ -2,7 +2,8 @@
 
 ![Github Actions Status](https://github.com/DerThorsten/jupyterlab_pytutor/workflows/Build/badge.svg)
 
-A JupyterLab extension for pythontutor.com
+A JupyterLab extension for pythontutor.com.
+This integrates pytutor for python kernels st. the python code can be inspected by pytutor
 
 ![screenshot of jupyterlab-pytutor](https://user-images.githubusercontent.com/591645/212368538-9023c2e9-1e95-4395-81eb-641b1801c782.png)
 
