@@ -35,15 +35,13 @@ import { Message } from '@lumino/messaging';
 import { StackedPanel } from '@lumino/widgets';
 
 /**
- * Initialization data for the jupyterlab_pytutor extension.
+ * Initialization data for the jupyterlab-pytutor extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab_pytutor:plugin',
+  id: 'jupyterlab-pytutor:plugin',
   autoStart: true,
   requires: [ISettingRegistry],
   activate: (app: JupyterFrontEnd, settingRegistry: ISettingRegistry) => {
-    console.log('JupyterLab extension jupyterlab_pytutor is activated!');
-
     let _settings: ISettingRegistry.ISettings;
     let pyTutorExtension: PyTutorExtension | undefined = undefined;
     const { shell } = app;
@@ -59,7 +57,6 @@ const plugin: JupyterFrontEndPlugin<void> = {
     settingRegistry.load(plugin.id).then(settings => {
       console.log(settings);
       _settings = settings;
-      console.log('jupyterlab_pytutor settings loaded:', settings.composite);
       _loadSettings();
       settings.changed.connect(_loadSettings);
     });
