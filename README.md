@@ -1,6 +1,7 @@
 # jupyterlab-pytutor
 
 [![Extension status](https://img.shields.io/badge/status-draft-critical 'Not yet working')](https://jupyterlab-contrib.github.io/index.html)[![Github Actions Status](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/workflows/Build/badge.svg)](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/actions/workflows/build.yml)
+[![JupyterLite](https://jupyterlite.rtfd.io/en/latest/_static/badge-launch.svg)](https://jupyterlab-pytutor.readthedocs.io/en/latest/lite/lab)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contrib/jupyterlab-pytutor/HEAD)
 
 A JupyterLab extension for pythontutor.com.
