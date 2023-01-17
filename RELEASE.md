@@ -1,4 +1,4 @@
-# Making a new release of jupyterlab_pytutor
+# Making a new release of jupyterlab-pytutor
 
 The extension can be published to `PyPI` and `npm` using the [Jupyter Releaser](https://github.com/jupyter-server/jupyter_releaser).
 

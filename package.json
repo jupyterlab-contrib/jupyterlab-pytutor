@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab_pytutor",
+  "name": "jupyterlab-pytutor",
   "version": "0.1.0",
   "description": "A JupyterLab extension for pythontutor.com",
   "keywords": [

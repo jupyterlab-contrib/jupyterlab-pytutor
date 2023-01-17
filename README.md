@@ -1,4 +1,4 @@
-# jupyterlab_pytutor
+# jupyterlab-pytutor
 
 ![Github Actions Status](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/workflows/Build/badge.svg)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contrib/jupyterlab-pytutor/HEAD)
@@ -17,7 +17,7 @@ This integrates pytutor for python kernels st. the python code can be inspected 
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab_pytutor
+pip install jupyterlab-pytutor
 ```
 
 ## Uninstall
@@ -25,7 +25,7 @@ pip install jupyterlab_pytutor
 To remove the extension, execute:
 
 ```bash
-pip uninstall jupyterlab_pytutor
+pip uninstall jupyterlab-pytutor
 ```
 
 
@@ -41,7 +41,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlab_pytutor directory
+# Change directory to the jupyterlab-pytutor directory
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
@@ -70,9 +70,9 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlab_pytutor
+pip uninstall jupyterlab0pytutor
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlab_pytutor` within that folder.
+folder is located. Then you can remove the symlink named `jupyterlab-pytutor` within that folder.
