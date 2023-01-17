@@ -10,7 +10,7 @@ This integrates pytutor for python kernels st. the python code can be inspected 
 
 ## Requirements
 
-* JupyterLab >= 3.0
+- JupyterLab >= 3.0
 
 ## Install
 
@@ -27,7 +27,6 @@ To remove the extension, execute:
 ```bash
 pip uninstall jupyterlab-pytutor
 ```
-
 
 ## Contributing
 
