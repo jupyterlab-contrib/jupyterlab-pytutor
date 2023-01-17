@@ -1,0 +1,5 @@
+{
+    "LiteBuildConfig": {
+        "federated_extensions": ["../jupyterlab_pytutor/labextension"]
+    }
+}
