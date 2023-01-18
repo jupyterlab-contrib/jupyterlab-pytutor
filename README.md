@@ -70,7 +70,7 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlab0pytutor
+pip uninstall jupyterlab-pytutor
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
