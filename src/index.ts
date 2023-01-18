@@ -119,7 +119,7 @@ export class PyTutorExtension
 
       if (this._pytutorPanel === undefined || this._pytutorPanel.isDisposed) {
         this._pytutorPanel = new PyTutorPanel(src);
-        this._shell.add(this._pytutorPanel, 'main');
+        this._shell.add(this._pytutorPanel, 'main', { mode: 'split-right' });
       } else {
         this._pytutorPanel.changeSourceCode(src);
       }
