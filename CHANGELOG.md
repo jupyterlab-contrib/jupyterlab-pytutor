@@ -2,6 +2,22 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.2.0
+
+([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/compare/v0.1.1...ea9a0da33d93131f3b91a231dbfa41c3bb50f768))
+
+### Enhancements made
+
+- Update to JupyterLab 4 [#20](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/pull/20) ([@lahwaacz](https://github.com/lahwaacz))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/graphs/contributors?from=2023-01-18&to=2023-08-11&type=c))
+
+[@jtpio](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-pytutor+involves%3Ajtpio+updated%3A2023-01-18..2023-08-11&type=Issues) | [@lahwaacz](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-pytutor+involves%3Alahwaacz+updated%3A2023-01-18..2023-08-11&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.1
 
 ([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/compare/v0.1.0...a2457939c0f5c7a1cb012064cd2c2d806b3005e6))
@@ -25,8 +41,6 @@
 ([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-pytutor/graphs/contributors?from=2023-01-17&to=2023-01-18&type=c))
 
 [@github-actions](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-pytutor+involves%3Agithub-actions+updated%3A2023-01-17..2023-01-18&type=Issues) | [@jtpio](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-pytutor+involves%3Ajtpio+updated%3A2023-01-17..2023-01-18&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.0
 
