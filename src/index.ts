@@ -109,7 +109,7 @@ export class PyTutorExtension
             src += '###############################\n';
           }
           console.log('code cell', cell_index);
-          src += `${cell.model.value.text}\n`;
+          src += `${cell.model.toJSON().source}\n`;
           if (add_cell_separators && codeCellIndex + 1 < nCodeCells) {
             src += '\n';
           }
