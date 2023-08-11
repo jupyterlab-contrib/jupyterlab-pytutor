@@ -10,7 +10,7 @@ dependencies:
 - pydata-sphinx-theme
 - myst-parser
 - ipywidgets>=8.0,<9
-- jupyterlab>=3.5.0,<4
+- jupyterlab>=4.0.0,<5
 - jupyterlab-language-pack-fr-FR
 - jupyterlab-language-pack-zh-CN
 - nodejs=18
